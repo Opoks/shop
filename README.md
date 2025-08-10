@@ -1,12 +1,28 @@
-# React + Vite
+# ShopPractice 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An e-commerce web application that fetches products from an API, allows users to add items to the cart, and manage purchases.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View Here](https://shoppractice.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React.js
+- Tailwind CSS
+- Redux
+- REST API Fetch
 
-## Expanding the ESLint configuration
+## 📌 Features
+- Fetch products dynamically from an API
+- Add, remove, and update cart items
+- Responsive UI built with Tailwind CSS
+- State management using Redux
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Screenshots
+![ShopPractice Screenshot](shop.jpg)
+
+## 📦 Installation
+```bash
+git clone https://github.com/Opoks/shoppractice.git
+cd shoppractice
+npm install
+npm start
